@@ -4,10 +4,10 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div className="bg-gray-100 p-10">
-            <div className="max-w-6xl mx-auto p-8">
+        <div className="bg-gray-100 p-2 md:p-4 lg:p-10">
+            <div className="max-w-6xl mx-auto p-2 lg:p-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div className='bg-gray-200 p-8 rounded-sm'>
+                    <div className='bg-gray-200 p-2 lg:p-8 rounded-sm'>
                         <h1 className="text-2xl font-semibold mb-6">Contact Us</h1>
                         <p className="mb-4">Leave your contact information here! We will contact you shortly once we receive your inquiry.</p>
                         <h2 className="text-lg font-semibold mb-4">Feel free to contact with us</h2>
@@ -82,7 +82,7 @@ const Contact = () => {
                         </form>
                     </div>
 
-                    <div className='p-8 rounded-sm'>
+                    <div className='p-2 lg:p-8 rounded-sm'>
                         <h2 className="text-2xl font-semibold mb-4">Business Opportunity</h2>
                         <p>At BSI, we welcome any opportunity you may bring about becoming our customers or suppliers, and we will be happy to assist you. Please get in touch with us at:</p>
 

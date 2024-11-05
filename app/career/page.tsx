@@ -11,7 +11,7 @@ const Accordion = () => {
     };
 
   return (
-    <div className="space-y-6 p-24 w-[80%] mx-auto">
+    <div className="space-y-6 p-2 md:p-12 lg:p-24 w-[95%] md:w-[90%] lg:w-[80%] mx-auto">
       {/* Introductory Section */}
       <div className="bg-white p-6 rounded-md shadow">
         <h1 className="text-2xl font-bold mb-4">Careers</h1>

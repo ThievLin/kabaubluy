@@ -42,7 +42,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className={`bg-gradient-to-r from-blue-600 to-blue-500 py-4 px-4 md:px-8 lg:px-12 flex items-center justify-between transition-all duration-300 ${isSticky ? 'sticky top-0 z-20 shadow-lg' : ''}`}>
+    <header className={`bg-gradient-to-r from-[#223adb] to-blue-500 py-4 px-4 md:px-8 lg:px-12 flex items-center justify-between transition-all duration-300 ${isSticky ? 'sticky top-0 z-20 shadow-lg' : ''}`}>
       <div className="flex items-center">
         {/* Clickable logo and text */}
         <Link href="/" className="flex items-center">
@@ -86,7 +86,7 @@ const Header = () => {
                 Become our member <FaChevronDown className="ml-2" />
               </a>
               {isDropdownOpen && (
-                <div className="absolute left-0 top-4 mt-2 bg-white shadow-lg rounded-md py-2 z-10 w-52">
+                <div className="absolute left-0 top-4 mt-2 bg-white shadow-lg rounded-sm py-2 z-10 w-52">
                   <a href="/partner-store" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Be our partner store</a>
                   <a href="/kbl-member" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Be our KBL member</a>
                 </div>
@@ -112,7 +112,7 @@ const Header = () => {
             Become our member <FaChevronDown className="ml-2" />
           </a>
           {isDropdownOpen && (
-            <div className="absolute top-full left-0 mt-0 bg-white shadow-lg rounded-md py-2 z-10 w-52">
+            <div className="absolute top-full left-0 mt-0 bg-white shadow-lg rounded-sm py-2 z-10 w-52">
               <a href="/partner-store" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Be our partner store</a>
               <a href="/kbl-member" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Be our KBL member</a>
             </div>

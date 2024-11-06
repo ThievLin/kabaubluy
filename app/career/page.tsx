@@ -22,7 +22,7 @@ const Accordion = () => {
 
   return (
     <div
-      className="relative bg-cover bg-center bg-fixed h-screen mx-auto"
+      className="relative bg-cover bg-center bg-fixed h-[800px] mx-auto"
       style={{ backgroundImage: 'url(/images/bg-slide.svg)' }}
     >
       {/* Apply a blur overlay */}
@@ -35,10 +35,10 @@ const Accordion = () => {
           <h1 className="text-2xl font-bold mb-4" data-aos="fade-up">
             Careers
           </h1>
-          <p className="text-gray-700 mb-4 text-lg">
+          <p className="text-gray-600 mb-4 text-lg">
             KBL team prides itself on bringing the latest technology innovation solutions to help our customers and partners grow. We will rely on all our team members to play our parts to achieve this noble mission. Therefore, we trust that without our intelligent, competent, and innovative members, we would not be able to serve our customers the best they should deserve.
           </p>
-          <p className="text-gray-700 text-lg">
+          <p className="text-gray-600 text-lg">
             If you are passionate about making an impact by bringing technology innovation, you are welcome to join our team. Please regularly check out this page for any available vacancies.
           </p>
         </div>

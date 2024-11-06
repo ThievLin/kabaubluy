@@ -46,7 +46,7 @@ const Header = () => {
       <div className="flex items-center">
         {/* Clickable logo and text */}
         <Link href="/" className="flex items-center">
-          <Image src="/" alt="logo" width={200} height={200} className="h-8 w-8 mr-2" />
+          <Image src="/images/logo.png" alt="logo" width={200} height={200} className="h-8 w-8 mr-2" />
           <span className="text-white font-bold text-xl">KabaubLuy</span>
         </Link>
       </div>
@@ -64,7 +64,7 @@ const Header = () => {
         <div className="fixed inset-0 z-20 bg-blue-500 flex flex-col items-center justify-center"> {/* Change to blue background */}
           <div className="items-center mb-4">
             <Link href="/" className="flex items-center">
-              <Image src="/" alt="logo" width={200} height={200} className="h-8 w-8 mr-2" />
+              <Image src="/images/logo.png" alt="logo" width={200} height={200} className="h-8 w-8 mr-2" />
               <span className="text-white font-bold text-xl">KabaubLuy</span>
             </Link>
           </div>

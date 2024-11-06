@@ -30,7 +30,7 @@ const HomePage: React.FC = () => {
   return (
     <div 
       className="relative container mx-auto p-4 bg-cover bg-center bg-fixed"
-      style={{ backgroundImage: 'url(/images/background.png)' }} // Adjust the path to your background image
+      style={{ backgroundImage: 'url(/images/background.png)' }}
     >
       <h1 className="text-2xl font-bold text-center mb-6 text-white">Awesome Screens</h1>
 

@@ -123,7 +123,7 @@ const Header = () => {
       </nav>
 
       <a href="#" className="bg-black text-tiny text-white px-4 py-1 rounded-lg hidden lg:flex items-center">
-      <FaApple className="mr-2 h-8 w-8" />
+      <FaApple className="mr-2 h-6 w-6" />
       Download on the 
       <br />
       App Store

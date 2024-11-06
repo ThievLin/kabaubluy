@@ -1,12 +1,14 @@
 import React from 'react';
+import KabaubLuyApp from '../components/KabaubLuyApp';
 
 const PartnerStorePage = () => {
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col items-center py-8">
-      <h1 className="text-2xl font-bold text-center mb-12">Become Our Partner Store</h1>
+    <>
+      <div className="min-h-screen bg-gray-100 flex flex-col items-center py-16">
+      <h1 className="text-2xl font-bold text-center mb-8">Become Our Partner Store</h1>
       <div className="flex flex-col md:flex-row max-w-[90%] w-full mx-auto">
         {/* Left Section for Benefits Text */}
-        <div className="flex-1 lg:w-3/5 p-4 text-lg">
+        <div className="flex-1 lg:w-3/5 p-8 rounded-sm shadow-md border text-lg m-4 bg-white">
           <p className="mb-4">
             As your digital wallet partner, KBL will help your business grow by receiving the following benefits:
           </p>
@@ -21,7 +23,7 @@ const PartnerStorePage = () => {
         </div>
 
         {/* Right Section for Form */}
-        <form className="bg-white p-8 rounded-lg shadow-md flex-1 lg:w-2/5 m-4">
+        <form className="bg-white p-8 rounded-sm shadow-md flex-1 lg:w-2/5 m-4">
           <h2 className="text-2xl font-semibold mb-4">Please fill out the form below:</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mb-4">
@@ -69,6 +71,8 @@ const PartnerStorePage = () => {
         </form>
       </div>
     </div>
+    <KabaubLuyApp />
+    </>
   );
 };
 

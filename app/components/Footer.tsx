@@ -4,9 +4,9 @@ import { FaFacebook, FaLinkedin, FaTelegram, FaInstagram, FaAppStore, FaGooglePl
 
 const Footer = () => {
   return (
-    <div className="bg-gray-300 text-gray-600">
+    <div className="bg-blue-600 text-white">
       <div className="flex flex-col md:flex-row items-start">
-        <div className="flex flex-col sm:flex-row justify-between m-auto space-y-4 py-6 md:space-y-16 space-x-2 md:space-x-8 lg:space-x-24 py-24">
+        <div className="flex flex-col sm:flex-row justify-between m-auto space-y-4 md:space-y-16 space-x-2 md:space-x-8 lg:space-x-24 py-10 md:py-12 lg:py-16">
           {/* Logo and Introduction */}
           <div className="space-y-4">
             <Image src="/https://kbl.bsi.com.kh/images/logo/logo-removebg-preview.png" alt="Logo" width={100} height={100} className="w-12 h-12 mr-2" />
@@ -23,6 +23,11 @@ const Footer = () => {
               <li>
                 <a href="/about" className="flex items-center hover:text-primary hover:underline">
                   <FaDotCircle className="mr-2" /> About us
+                </a>
+              </li>
+              <li>
+                <a href="/screen" className="flex items-center hover:text-primary hover:underline">
+                  <FaDotCircle className="mr-2" /> Screens
                 </a>
               </li>
               <li>
@@ -88,7 +93,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row items-center justify-between text-sm text-start px-16 mt-8 bg-gray-400 py-4 text-gray-100">
+      <div className="flex flex-col md:flex-row items-center justify-between text-sm text-start px-4 md:px-16 mt-8 bg-gray-700 py-4 text-gray-100">
         <span>© 2024 Technovation BSI. All Rights Reserved</span>
         <div className="flex space-x-4 mt-2 md:mt-0">
           <a href="/term-condition" className="hover:underline">Terms & Conditions</a>

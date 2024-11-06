@@ -3,6 +3,7 @@ import bgImage from '../public/images/background.png';
 import foregroundImage from '../public/images/phone.png';
 import 'animate.css';
 import AboutUs from './components/About-Us';
+import KabaubLuyApp from './components/KabaubLuyApp';
 export default function Home() {
   return (
     <>
@@ -30,6 +31,7 @@ export default function Home() {
       </div>
     </div>
     <AboutUs />
+    <KabaubLuyApp />
     </>
   );
 }

@@ -22,8 +22,8 @@ export default function Home() {
           </div>
           {/* Text on the right */}
           <div className="text-white w-[70%]">
-            <h1 className="text-6xl font-bold mb-4 animate__animated animate__fadeInUp animate_delay-10s">Welcome to <span className='text-[#FF6608]'>Kabaub Luy</span></h1>
-            <p className="text-lg animate__animated animate__fadeInUp animate_delay-4s">
+            <h1 className="text-xl md:text-3xl lg:text-6xl font-bold mb-4 animate__animated animate__fadeInUp animate_delay-10s">Welcome to <span className='text-[#FF6608]'>Kabaub Luy</span></h1>
+            <p className="md:text-base lg:text-lg animate__animated animate__fadeInUp animate_delay-4s">
               Kabaub Luy is Your Trusted Digital Wallet Partner, Helping You Save More!
             </p>
           </div>

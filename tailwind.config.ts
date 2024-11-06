@@ -16,6 +16,9 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      spacing: {
+        '22': '85px',
+      },
     },
   },
   plugins: [],

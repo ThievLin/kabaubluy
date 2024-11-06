@@ -42,7 +42,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className={`bg-gradient-to-r from-blue-600 to-blue-500 py-4 px-4 md:px-8 lg:px-12 flex items-center justify-between transition-all duration-300 ${isSticky ? 'sticky top-0 z-10 shadow-lg' : ''}`}>
+    <header className={`bg-gradient-to-r from-blue-600 to-blue-500 py-4 px-4 md:px-8 lg:px-12 flex items-center justify-between transition-all duration-300 ${isSticky ? 'sticky top-0 z-20 shadow-lg' : ''}`}>
       <div className="flex items-center">
         {/* Clickable logo and text */}
         <Link href="/" className="flex items-center">
@@ -76,6 +76,7 @@ const Header = () => {
           </button>
           <nav className="flex flex-col items-center space-y-4">
             <a href="/about" className="text-white hover:text-white/80">About us</a>
+            <a href="/screen" className="text-white hover:text-white/80">Screens</a>
             <div
               className="relative flex items-center"
               onMouseEnter={() => setIsDropdownOpen(true)}
@@ -100,6 +101,7 @@ const Header = () => {
       {/* Desktop Links */}
       <nav className={`hidden lg:flex items-center space-x-6`}>
         <a href="/about" className="text-white hover:text-white/80">About us</a>
+        <a href="/screen" className="text-white hover:text-white/80">Screens</a>
         {/* Dropdown for 'Become our member' with an icon */}
         <div
           className="relative flex items-center"

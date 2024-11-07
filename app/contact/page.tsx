@@ -3,8 +3,8 @@ const Contact = () => {
         <div className="bg-gray-100 p-2 md:p-4 lg:p-10">
             <div className="max-w-7xl mx-auto p-2 lg:p-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div className='bg-gray-200 p-2 lg:p-8 rounded-sm'>
-                        <h1 className="text-2xl font-semibold mb-6">Contact Us</h1>
+                    <div className='bg-gray-200 p-2 lg:p-8 rounded-sm shadow-md'>
+                        <h1 className="text-2xl font-semibold mb-6 text-[#FF6608]">Contact Us</h1>
                         <p className="mb-4">Leave your contact information here! We will contact you shortly once we receive your inquiry.</p>
                         <h2 className="text-lg font-semibold mb-4">Feel free to contact with us</h2>
                         <form>
@@ -16,7 +16,7 @@ const Contact = () => {
                                         id="first-name"
                                         required
                                         className="mt-1 block w-full border border-gray-300 rounded-md p-2"
-                                        placeholder="John"
+                                        placeholder=""
                                     />
                                 </div>
                                 <div>
@@ -26,7 +26,7 @@ const Contact = () => {
                                         id="phone"
                                         required
                                         className="mt-1 block w-full border border-gray-300 rounded-md p-2"
-                                        placeholder="+855 23 902 088"
+                                        placeholder=""
                                     />
                                 </div>
                                 <div>
@@ -36,7 +36,7 @@ const Contact = () => {
                                         id="last-name"
                                         required
                                         className="mt-1 block w-full border border-gray-300 rounded-md p-2"
-                                        placeholder="Doe"
+                                        placeholder=""
                                     />
                                 </div>
                                 <div>
@@ -46,7 +46,7 @@ const Contact = () => {
                                         id="email"
                                         required
                                         className="mt-1 block w-full border border-gray-300 rounded-md p-2"
-                                        placeholder="example@example.com"
+                                        placeholder=""
                                     />
                                 </div>
                                 <div>
@@ -55,7 +55,7 @@ const Contact = () => {
                                         type="text"
                                         id="subject"
                                         className="mt-1 block w-full border border-gray-300 rounded-md p-2"
-                                        placeholder="Subject"
+                                        placeholder=""
                                     />
                                 </div>
                                 <div className="md:col-span-2">
@@ -71,15 +71,15 @@ const Contact = () => {
                             </div>
                             <button
                                 type="submit"
-                                className="mt-4 bg-blue-600 text-white px-4 py-2 rounded-lg"
+                                className="mt-4 bg-[#223adb] text-white px-4 py-2 rounded-md"
                             >
                                 Send Message
                             </button>
                         </form>
                     </div>
 
-                    <div className='p-2 lg:p-8 rounded-sm border'>
-                        <h2 className="text-2xl font-semibold mb-4">Business Opportunity</h2>
+                    <div className='p-2 lg:p-8 rounded-sm border shadow-sm'>
+                        <h2 className="text-2xl font-semibold mb-4 text-[#FF6608]">Business Opportunity</h2>
                         <p>At BSI, we welcome any opportunity you may bring about becoming our customers or suppliers, and we will be happy to assist you. Please get in touch with us at:</p>
 
                         <h3 className="mt-4 font-semibold">Our Location</h3>
@@ -96,7 +96,7 @@ const Contact = () => {
                         <p>Saturday, Sunday: Closed</p>
 
                         <p className="mt-4">For more information visit:</p>
-                        <a href="https://www.bsi.com.kh" className="text-blue-600 underline">www.bsi.com.kh</a>
+                        <a href="https://www.bsi.com.kh" className="text-[#223adb] underline">www.bsi.com.kh</a>
                     </div>
                 </div>
             </div>

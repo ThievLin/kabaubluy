@@ -1,17 +1,18 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 import { FaFacebook, FaLinkedin, FaTelegram, FaInstagram, FaAppStore, FaGooglePlay, FaDotCircle } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <div className="bg-[#e8e8e8] text-gray-500">
+    <div className="bg-gray-300 text-gray-600 shadow-sm">
       <div className="flex flex-col md:flex-row items-start">
         <div className="flex flex-col sm:flex-row justify-between m-auto space-y-4 md:space-y-16 space-x-2 md:space-x-8 lg:space-x-24 md:px-4 py-10 md:py-12 lg:py-16">
           {/* Logo and Introduction */}
-          <div className="space-y-4">
-            <Image src="/images/logofoot.png" alt="Logo" width={100} height={100} className="w-28 h-24" />
-            <h1 className="text-xl font-bold">KabaubLuy</h1>
-            <p className="text-muted-foreground mb-6 md:mb-0 max-w-sm">
+          <div className="">
+            <Image src="/images/logofoot.png" alt="Logo" width={100} height={100} className="w-22 h-16" />
+            <h1 className="text-xl font-bold text-[#FF6608]">KabaubLuy</h1>
+            <p className="text-gray-600 md:mb-0 max-w-xs mt-4">
               Your trusted digital wallet partner that helps you save more.
             </p>
           </div>
@@ -19,31 +20,31 @@ const Footer = () => {
           {/* Useful Links */}
           <div className="space-y-4">
             <h2 className="font-semibold">Useful Links</h2>
-            <ul className="text-muted-foreground space-y-2">
+            <ul className="text-gray-600 space-y-2">
               <li>
-                <a href="/about" className="flex items-center hover:text-primary hover:underline">
+                <Link href="/about" className="flex items-center hover:text-primary hover:underline">
                   <FaDotCircle className="mr-2" /> About us
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/screen" className="flex items-center hover:text-primary hover:underline">
+                <Link href="/screen" className="flex items-center hover:text-primary hover:underline">
                   <FaDotCircle className="mr-2" /> Screens
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/partner-store" className="flex items-center hover:text-primary hover:underline">
+                <Link href="/partner-store" className="flex items-center hover:text-primary hover:underline">
                   <FaDotCircle className="mr-2" /> Become our partner store
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/kbl-member" className="flex items-center hover:text-primary hover:underline">
+                <Link href="/kbl-member" className="flex items-center hover:text-primary hover:underline">
                   <FaDotCircle className="mr-2" /> Become our kbl member
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/contact" className="flex items-center hover:text-primary hover:underline">
+                <Link href="/contact" className="flex items-center hover:text-primary hover:underline">
                   <FaDotCircle className="mr-2" /> Contact us
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -51,26 +52,26 @@ const Footer = () => {
           {/* Connect with */}
           <div className="space-y-4">
             <h2 className="font-semibold">Connect with us</h2>
-            <ul className="text-muted-foreground space-y-2">
+            <ul className="text-gray-600 space-y-2">
               <li>
-                <a href="#" className="flex items-center hover:text-primary hover:underline">
+                <Link href="#" className="flex items-center hover:text-primary hover:underline">
                   <FaFacebook className="mr-2" /> Facebook
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="flex items-center hover:text-primary hover:underline">
+                <Link href="#" className="flex items-center hover:text-primary hover:underline">
                   <FaLinkedin className="mr-2" /> LinkedIn
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="flex items-center hover:text-primary hover:underline">
+                <Link href="#" className="flex items-center hover:text-primary hover:underline">
                   <FaTelegram className="mr-2" /> Telegram
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="flex items-center hover:text-primary hover:underline">
+                <Link href="#" className="flex items-center hover:text-primary hover:underline">
                   <FaInstagram className="mr-2" /> Instagram
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -78,26 +79,26 @@ const Footer = () => {
           {/* Download */}
           <div className="space-y-4">
             <h2 className="font-semibold">Download</h2>
-            <ul className="text-muted-foreground space-y-2">
+            <ul className="text-gray-600 space-y-2">
               <li className='hover:underline'>
-                <a href="#" className="flex items-center hover:text-primary">
+                <Link href="#" className="flex items-center hover:text-primary">
                   <FaAppStore className="mr-2" /> Download App Store
-                </a>
+                </Link>
               </li>
               <li className='hover:underline'>
-                <a href="#" className="flex items-center hover:text-primary">
+                <Link href="#" className="flex items-center hover:text-primary">
                   <FaGooglePlay className="mr-2" /> Download Google Play
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row items-center justify-between text-sm text-start px-4 md:px-16 mt-8 bg-gray-700 py-4 text-gray-100">
+      <div className="flex flex-col md:flex-row items-center justify-between text-sm text-start px-4 md:px-16 mt-8 bg-[#223adb] py-4 text-gray-100">
         <span>© 2024 Technovation BSI. All Rights Reserved</span>
         <div className="flex space-x-4 mt-2 md:mt-0">
-          <a href="/term-condition" className="hover:underline">Terms & Conditions</a>
-          <a href="/privacy-policy" className="hover:underline">Privacy Policy</a>
+          <Link href="/term-condition" className="hover:underline">Terms & Conditions</Link>
+          <Link href="/privacy-policy" className="hover:underline">Privacy Policy</Link>
         </div>
       </div>
     </div>

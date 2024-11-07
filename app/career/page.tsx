@@ -31,7 +31,7 @@ const Accordion = () => {
       <div className="space-y-6 p-6 md:p-8 lg:p-12 w-[90%] sm:w-[85%] lg:w-[70%] mx-auto relative">
         {/* Introductory Section */}
         <div className="bg-white p-6 rounded-md shadow" data-aos="fade-up" data-aos-delay="300">
-          <h1 className="text-2xl font-bold mb-4" data-aos="fade-up">
+          <h1 className="text-2xl font-bold mb-4 text-[#FF6608]" data-aos="fade-up">
             Careers
           </h1>
           <p className="text-gray-600 mb-4 text-base sm:text-lg">

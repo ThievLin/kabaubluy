@@ -20,7 +20,7 @@ const AboutUs = () => {
         <div className="flex flex-col md:flex-row items-center justify-center p-4 md:px-12 md:py-12 lg:px-24 lg:py-12">
           <div className="lg:w-[60%] mb-6 md:mb-0 md:pr-8 text-center md:text-left mx-auto">
             <h4 className="text-xl font-semibold mb-4" data-aos="fade-up">About us!</h4>
-            <h4 className="text-3xl font-semibold mb-4" data-aos="fade-up" data-aos-delay="200">Who we are!</h4>
+            <h4 className="text-3xl font-semibold mb-4 text-[#FF6608]" data-aos="fade-up" data-aos-delay="200">Who we are!</h4>
             <p className="text-lg" data-aos="fade-up" data-aos-delay="300">
               Kabaub Luy Application is an innovative and integrative membership application with cashless payment functions that incorporates the digital wallet payment option to help customers save more via merchant reward offers and discounts. Kabaub Luy acts as a customer&apos;s trusted digital wallet partner.
               At KabaubLuy, we value quality, innovation, and customer satisfaction.
@@ -42,7 +42,7 @@ const AboutUs = () => {
         </div>
   
         <div className="items-center justify-center p-4 md:p-12 lg:p-24">
-          <h4 className="text-3xl font-semibold mb-8 text-center" data-aos="fade-up">What we do!</h4>
+          <h4 className="text-3xl font-semibold mb-8 text-center text-[#FF6608]" data-aos="fade-up">What we do!</h4>
           <div className="flex flex-col lg:flex-row justify-center lg:justify-between lg:w-[90%] mx-auto mb-6 md:mb-0 text-center">
               <div className="bg-white border rounded-lg p-6 mb-4 lg:mb-0 lg:mr-4 flex-1 flex flex-col" data-aos="fade-up">
               <div className="flex justify-center mb-4">

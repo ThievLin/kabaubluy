@@ -22,7 +22,8 @@ const Slideshow: React.FC<SlideshowProps> = ({ images, interval = 3000 }) => {
     centerMode: true, // Center the active slide
     focusOnSelect: true, // Focus on the selected slide
     centerPadding: '0', // No extra padding on the sides
-    slidesToScroll: 1, // Scroll one slide at a time
+    slidesToScroll: 1,// Scroll one slide at a time
+    // arrows: false,
     beforeChange: (current: number, next: number) => {
       // Update the state to trigger a re-render when the slide changes
       setActiveSlide(next);

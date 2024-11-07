@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <div className="relative w-full h-screen bg-cover bg-center" style={{ backgroundImage: `url(${bgImage.src})` }}>
-      <div className="flex items-center justify-center h-full px-8 bg-black bg-opacity-10">
+      <div className="flex items-center justify-center h-full px-8 bg-blue-600 bg-opacity-10">
         <div className="flex flex-col md:flex-row items-center max-w-5xl">
           {/* Image on the left */}
           <div className="mb-4 md:mb-0 md:mr-6 w-[30%]">

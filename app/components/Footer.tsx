@@ -4,13 +4,13 @@ import { FaFacebook, FaLinkedin, FaTelegram, FaInstagram, FaAppStore, FaGooglePl
 
 const Footer = () => {
   return (
-    <div className="bg-blue-600 text-white">
+    <div className="bg-[#e8e8e8] text-gray-500">
       <div className="flex flex-col md:flex-row items-start">
         <div className="flex flex-col sm:flex-row justify-between m-auto space-y-4 md:space-y-16 space-x-2 md:space-x-8 lg:space-x-24 md:px-4 py-10 md:py-12 lg:py-16">
           {/* Logo and Introduction */}
           <div className="space-y-4">
-            <Image src="/images/logo.png" alt="Logo" width={100} height={100} className="w-24 h-24 mr-2" />
-            {/* <h1 className="text-xl font-bold">KabaubLuy</h1> */}
+            <Image src="/images/logofoot.png" alt="Logo" width={100} height={100} className="w-28 h-24 mr-2" />
+            <h1 className="text-xl font-bold">KabaubLuy</h1>
             <p className="text-muted-foreground mb-6 md:mb-0 max-w-sm">
               Your trusted digital wallet partner that helps you save more.
             </p>

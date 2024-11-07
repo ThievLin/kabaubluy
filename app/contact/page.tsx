@@ -89,7 +89,7 @@ const Contact = () => {
                         <p>(+855) 23 902 088</p>
 
                         <h3 className="mt-4 font-semibold">Our Email</h3>
-                        <p>Email: kbl@bsi.com.kh</p>
+                        <a href="mailto:kbl@bsi.com.kh" className="text-[#223adb] underline">Email: kbl@bsi.com.kh</a>
 
                         <h3 className="mt-4 font-semibold">Business Hours</h3>
                         <p>Monday - Friday: 8 am to 5 pm</p>

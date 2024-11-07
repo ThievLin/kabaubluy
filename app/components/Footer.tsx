@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="flex flex-col sm:flex-row justify-between m-auto space-y-4 md:space-y-16 space-x-2 md:space-x-8 lg:space-x-24 md:px-4 py-10 md:py-12 lg:py-16">
           {/* Logo and Introduction */}
           <div className="">
-            <Image src="/images/logofoot.png" alt="Logo" width={100} height={100} className="w-22 h-16" />
+            <Image src="/images/logofoot.png" alt="Logo" width={100} height={100} className="w-22 h-16 ml-3" />
             <h1 className="text-xl font-bold text-[#FF6608]">KabaubLuy</h1>
             <p className="text-gray-600 md:mb-0 max-w-xs mt-4">
               Your trusted digital wallet partner that helps you save more.

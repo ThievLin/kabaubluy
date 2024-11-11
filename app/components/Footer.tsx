@@ -5,7 +5,7 @@ import { FaFacebook, FaLinkedin, FaTelegram, FaInstagram, FaAppStore, FaGooglePl
 
 const Footer = () => {
   return (
-    <div className="bg-gray-300 text-gray-600 shadow-sm">
+    <div className="bg-gray-100 text-gray-600 shadow-sm">
       <div className="flex flex-col md:flex-row items-start">
         <div className="flex flex-col sm:flex-row justify-between m-auto space-y-4 md:space-y-16 space-x-2 md:space-x-8 lg:space-x-24 md:px-4 py-10 md:py-12 lg:py-16">
           {/* Logo and Introduction */}
